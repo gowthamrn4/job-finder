@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+	
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.wrapper {
+    width:950px;
+    margin: 0 auto;
+	
+	
+}
+
+/******************* LOGO DIV **************************/
+.logo1{
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    background: #ccc;
+	overflow:hidden;
+}
+
+.logo_img {
+    float: left;
+    width: 200px;
+}
+/************************ TOP MENU BAR ***********************/
+.top_menu_bar {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: #3A3A3C;
+	margin-top: 30px;
+	overflow:hidden;
+}
+
+.top_menu {
+    width: 634px;
+    margin: 0 auto;
+}
+
+.top_menu ul li{
+    float: left;
+}
+
+.top_menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 7px 4px 7px 4px;
+    margin: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #3A3A3C;
+    border-right: 1px solid #fff;
+}
+
+.top_menu ul li:nth-child(8) a {
+    border: 1px solid #3A3A3C;
+}
+
+.top_menu ul li a:hover {
+    background: #063851;
+    border: 1px solid #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+/*main body title*/
+.main_body_title{
+	width:100%;
+	display:block;
+	overflow:hidden;
+	float:left;
+	background:#F4F5F7;
+	margin-top:20px;
+	
+	
+}
+.row1{
+	width:100%;
+	display:block;
+	overflow:hidden;
+	float:left;
+	
+	
+}
+.text_l{
+		width:50%;
+		float:left;
+		color:black;
+		font-weight:bold;
+		margin-top:20px;
+		
+		
+
+}
+.text_r{
+		width:50%;
+		float:left;
+		color:black;
+		font-weight:bold;
+		margin-top:20px;
+		
+}
+.row2{
+	width:100%;
+	float:left;
+	display:block;
+	overflow:hidden;	
+	margin-top: 20px;
+}
+.field_l{
+	width:50%;
+	float:left;
+}
+.field_r{
+
+}
+
+/*form desing*/
+.contact_form input, .contact_form textarea, .contact_form select { 
+	height: 40px;
+	width: 300px;
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+.contact_form input:focus, .contact_form textarea .contact_form select:focus {
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+}
+
+ .contact_form input:focus, .contact_form textarea .contact_form select:focus { /* add this to the already existing style */
+     padding-right:0px; 
+}  
+.contact_form input, .contact_form textarea .contact_form select { /* add this to the already existing style */
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+button.submit {
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:20px;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset; 
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+     
+}

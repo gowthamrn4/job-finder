@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+	
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.wrapper {
+    width:950px;
+    margin: 0 auto;
+	
+	
+}
+.a{
+	
+   width:950px;
+    margin: 0 auto;
+	float:left;
+	
+}
+/******************* LOGO DIV **************************/
+.logo1{
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    background: #ccc;
+	overflow:hidden;
+}
+
+.logo_img {
+    float: left;
+    width: 200px;
+}
+/************************ TOP MENU BAR ***********************/
+.top_menu_bar {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: #3A3A3C;
+	margin-top: 30px;
+	overflow:hidden;
+}
+
+.top_menu {
+    width: 634px;
+    margin: 0 auto;
+}
+
+.top_menu ul li{
+    float: left;
+}
+
+.top_menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 7px 4px 7px 4px;
+    margin: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #3A3A3C;
+    border-right: 1px solid #fff;
+}
+
+.top_menu ul li:nth-child(8) a {
+    border: 1px solid #3A3A3C;
+}
+
+.top_menu ul li a:hover {
+    background: #063851;
+    border: 1px solid #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+/*main body title*/
+.main_body_title{
+	width:100%;
+	display:block;
+	float:left;
+	background:#F4F5F7;
+	margin-top:20px;
+	
+	
+}
+.div_title{
+	width:100%;
+	display:block;
+	float:left;
+	margin-top:20px;
+}
+.row1{
+	width:950px;
+	display:block;
+	overflow:hidden;
+	
+	
+}
+.text_l{
+		width:50%;
+		float:left;
+		color:black;
+		font-weight:bold;
+		margin-top:20px;
+		
+		
+
+}
+.text_r{
+		width:50%;
+		float:left;
+		color:black;
+		font-weight:bold;
+		margin-top:20px;
+		
+}
+.row2{
+	width:950px;
+	display:block;
+	overflow:hidden;	
+	margin-top: 20px;
+}
+.field_l{
+	width:50%;
+	float:left;
+}
+.field_r{
+
+}
+
+.from-control-login {
+    height: 40px;
+	width: 300px;
+    background-color: #FFF;
+    border: 2px solid #DDD;
+    color: #333;
+    font-weight: normal;
+}
+.sign_in{
+	width: 125px;
+	
+	margin: 10px 0px 0px;
+	float: left;
+	height: 40px;
+	text-align: center;
+}
+.sign_button{
+font-size: 20px;
+margin-top: 30px;
+
+}

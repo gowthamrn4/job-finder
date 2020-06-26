@@ -1,0 +1,14 @@
+.footer1{
+	width: 100%;
+	float:left;
+	display:block;
+	overflow:hidden;
+	height:30px;
+	background: #ccc;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	
+}
+.footer1 h3{
+	margin-top: 5px;
+}

@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.wrapper {
+    width:950px;
+    margin: 0 auto;
+}
+.b{
+	width:950px;
+    margin: 0 auto;
+	float:left;
+}
+.wrapper_1{
+	width: 677px;
+    margin: 0 auto;
+}
+/************************ TOP MENU BAR ***********************/
+.top_menu_bar {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: #3A3A3C;
+	margin-top: 30px;
+}
+
+.top_menu {
+    width: 634px;
+    margin: 0 auto;
+}
+
+.top_menu ul li{
+    float: left;
+}
+
+.top_menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 7px 4px 7px 4px;
+    margin: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #3A3A3C;
+    border-right: 1px solid #fff;
+	text-decoration: none;
+	
+}
+
+.top_menu ul li:nth-child(8) a {
+    border: 1px solid #3A3A3C;
+}
+
+.top_menu ul li a:hover {
+    background: #063851;
+    border: 1px solid #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/******************* LOGO DIV **************************/
+.logo1{
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    background: #ccc;
+}
+
+.logo_img {
+    float: left;
+    width: 200px;
+}
+.sing_out{
+	float:right;
+	margin-top:50px;
+	margin-right:10px;
+}
+/* .login {
+    float: right;
+    width: 400px;
+}
+
+.login input {
+    width: 117px;
+    height: 27px;
+} */
+/* ======================banner div desing=================== */
+.banner{
+	float:Right;
+	width:467px;
+	
+}
+.user_name{
+	width: 136px;
+	margin: 7px 10px 0px 25px;
+	float: left;
+	
+}
+.user_name_text{
+	width: 136px;
+    margin: 5px 0px 0px;
+    float: left;
+	padding: 5px;
+}
+
+.user_name_rem{    
+	margin: 4px 0px 0px;
+    float: left;
+    color: #888;
+    font-size: 12px;
+    width: 130px;
+}
+.user_name input[type="text"], input[type="password"] {
+    padding: 5px;
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #DDD;
+    width: 100%;
+    box-sizing: border-box;
+    color: #666;
+    border-radius: 2px;
+}
+.user_pass{
+		width: 136px;
+	margin: 12px 10px 0px 25px;
+	float: left;
+}
+.user_pass_fill{
+		    width: 136px;
+    margin: 5px 0px 0px;
+    float: left;
+}
+.user_pass input[type="text"], input[type="password"] {
+    padding: 5px;
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #DDD;
+    width: 100%;
+    box-sizing: border-box;
+    color: #666;
+    border-radius: 2px;
+}
+.user_pass_text{
+		margin: 9px 0px 0px;
+float: left;
+color: #2C5A77;
+font-size: 12px;
+width: 136px;
+}
+.sign_in{
+	width: 125px;
+	margin: 10px 0px 0px;
+	float: left;
+	text-align: center;
+}
+.sign_button{
+font-size: 13px;
+
+}
+.sign_text{
+	margin: 10px 0px 0px;
+float: left;
+color: #2C5A77;
+font-size: 12px;
+width: 125px;
+text-align: center;
+}
+.sign_in button[type="submit"] {
+    font-size: 13px;
+    font-weight: bold;
+    color: #68AA47;
+    border: 1px solid #CCC;
+    background: transparent linear-gradient(#F2F1F1, #E6E4E4) repeat scroll 0% 0%;
+    margin: 5px 0px 0px 10px;
+    float: right;
+    height: 30px;
+    width: 110px;
+    border-radius: 4px;
+}
+/* ======================end banner div desing=================== */
+/*======================= main body ==============================*/
+.main_body{
+	width: 100%;
+	
+    float: left;
+    background: #ccc;
+	margin-top: 30px;
+}
+.main_body_title{
+	
+	width: 100%;
+	height: 26px;
+	border-bottom: 1px solid black;
+}
+.main_body_full{
+	float:left;
+	width:100%;
+	margin-top: 20px;
+	/*color: #FFF;
+	background: #E84A4A none repeat scroll 0% 0%;*/
+}
+.main_part1{
+	color: #FFF;
+	float:left;
+	line-height:30px;
+	margin-right: 100px;
+	margin-left:130px;
+	
+}
+/* .main_part1 ul li{
+background-image: url("images/cat_arrow.gif");
+background-position: left center;
+background-repeat: no-repeat;
+margin-left: 5px;
+margin-right: 10px;
+padding-left: 12px;
+} */
+.main_part2{
+	color: #FFF;
+	float:left;
+	line-height:30px;
+	margin-right: 100px;
+}
+.main_part3{
+	color: #FFF;
+	float:left;
+	line-height:30px;
+	
+}
+.main_part_button{
+	width: 100%;
+    float: left;
+    background: #ccc;
+}
+.main_part_button  .button{
+	border: 0px none;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    background: #E84A4A none repeat scroll 0% 0%;
+    margin: 10px 10px 0px 0px;
+    display: inline-block;
+    cursor: pointer;
+}
+/*hot job */
+.hot_job_title{
+	
+}
+.hot_job_title1{
+	width: 100%;
+	float:left;
+	display:block;
+	background: #ccc;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.hotjobstxt{
+	font-family: tahoma;
+font-size: 11px;
+color: #0E0E0E;
+}
+.hotjobsCompanyName {
+    color: #4091F0;
+    text-decoration: none;
+}
+.hotjobsBullet {
+    list-style-image: url("images/bullet_orange.gif");
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    line-height: 1.3;
+}
+.conti {
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    border-width: medium 1px 1px;
+    border-style: none solid solid;
+    border-color: -moz-use-text-color #CDDBE4 #CDDBE4;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    background-color: #FFF;
+    margin: 0px 0px 0px -2px;
+}
+.hotjobstxt  tr td{
+	border: 1px solid olive;
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+/********************** start log div ********************************/
+.header_back{
+	background:#CCCCCC;
+}
+.profile-pic {
+    height: 30px;
+    width: 30px;
+}
+.nav-btn {
+    color: #fff;
+    background-color: #4a4a4d;
+    border: none;
+    font-size: 12px;
+}
+.logo_right{
+	margin-top:30px;
+	margin-left:10px;
+	float:right;
+}
+/************************* start design memu bar ************************************/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color:#CCCCCC; /* rgba(248, 248, 248, 1); */
+    background: -webkit-linear-gradient(top, rgba(140, 126, 126, 1) 0%, rgba(248, 248, 248, 1) 100%);
+    background: linear-gradient(to bottom, rgba(140, 126, 126, 1) 0%, rgba(248, 248, 248, 1) 100%);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1); /* li a font color*/
+    background-color: rgba(248, 248, 248, 0); /*li background color*/
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1); /*hover font color*/
+    background-color: rgba(248, 248, 248, 0);
+    background: -webkit-linear-gradient(top, rgba(174, 179, 209, 1) 0%, rgba(248, 248, 248, 0) 100%);
+    background: linear-gradient(to bottom, rgba(174, 179, 209, 1) 0%, rgba(248, 248, 248, 0) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #888;
+}
+/************************* end design memu bar ************************************/
+/* main left*/
+#custom_list {
+
+}
+#custom_list .list-unstyled>li>a{
+	text-decoration:none;
+	position: relative;
+    display: block;
+    padding: 10px 10px;
+    margin-left: -15px;
+	margin-right:-15px;
+	margin-top:-10px;
+	margin-bottom:-10px;
+	color:#7A1A8B;
+	font-size:15px;
+	
+    
+}
+#custom_list .list-unstyled>li>a:hover{
+    background-color: #d9d9d9;
+}
+#custom_list .list-unstyled>li{
+	border: solid 1px #ebebeb;
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-left: -15px;
+	background-color:#808080;
+	
+}
+/* main right */
+#custom_right{
+	background:red;
+	height:350px;
+}
+#custom_right1{
+	background:red;
+	height:350px;
+}
